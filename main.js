@@ -1,7 +1,3 @@
-$(window).on("load",function(){
-  $(".sk-cube-grid").fadeOut();
-})
-
 // Wrap every letter in a span
 var textWrapper = document.querySelector('.ml10 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
